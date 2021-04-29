@@ -10,7 +10,7 @@ Below is the basic NAS workflow:
 
 ![image](https://user-images.githubusercontent.com/59950610/116515171-907eaf80-a8e9-11eb-95c4-7d77bda9820d.png)
 
-Below is the NAS implemented methods & toolkits:
+#### Below is the NAS implemented methods & toolkits:
 •	NNI (Neural Network Intelligence)
   •	ENAS
   •	DARTS
