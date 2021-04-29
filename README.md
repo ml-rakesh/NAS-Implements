@@ -20,21 +20,21 @@ Below is the basic NAS workflow:
 
 
 ##	How to run the codes
-1.	ENAS:
+## 1.	ENAS:
   ### search architecture:
       python3 search.py --num_epochs 5 --input_shape 34 --out_shape 64 --train_mode 'search' --last_activation 'softmax'
 
-		### retrain the best architecture:
+  ### retrain the best architecture:
       python3 search.py --num_epochs 5 --input_shape 34 --out_shape 64 --train_mode 'retrain' --arch_path './final_architecture.json'
 
-2.	DARTS:
+## 2.	DARTS:
   ### search architecture:
      python3 search.py --num_epochs 5 --input_shape 34 --out_shape 64 --train_mode 'search' --last_activation 'softmax'
 
   ### retrain the best architecture:
      python3 search.py --num_epochs 5 --input_shape 34 --out_shape 64 --train_mode 'retrain' --arch_path './final_architecture.json'
 
-3.	PDARTS:
+### 3.	PDARTS:
   ### search architecture: 
      python3 search.py --num_epochs 5 --input_shape 34 --out_shape 64 --train_mode 'search' --last_activation 'softmax'
 
